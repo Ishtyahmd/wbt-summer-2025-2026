@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Contact with me</h1>
+    <!-- Contact form-->
+     <form method="post">
+        <fieldset>
+            <legend>Contact me</legend>
+
+            <table>
+                <tr>
+                    <td><label for="name">First name:</label></td>
+                    <td><input type="text" id="First-name" name="Fname" placeholder="Enter first name"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="name">Last name:</label></td>
+                    <td><input type="text" id="Last-name" name="Lname" placeholder="Enter last name"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email:</label></td>
+
+                    <td><input type="email" id="email" name="email" placeholder="enter your email"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+
+                    <td>
+                        <input type="radio" name="gender" id="male" value="male">Male
+
+                        <input type="radio" name="Gender" id="Female" value="female">Female
+
+                        <input type="radio" name="Gender" id="Other" value="other">other
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <!--Services-->
+        <fieldset>
+            <legend>Services</legend>
+
+            <table>
+                <td><Label>Services:</Label></td>
+
+                <td><input type="checkbox" name="AI/ML" id="ai-ml"> AI/ML</td>
+
+                <td><input type="checkbox" name="Web" id="web-dev"> Web-Development</td>
+
+                <td><input type="checkbox" name="backend" id="backend"> Backend</td>
+            </table>
+        </fieldset>
+
+        <!--Contact reason-->
+        <fieldset>
+            <legend>Contact Reason</legend>
+
+            <table>
+
+                <td><select name="--Contact id="Contact"></select>
+                <option value="job"></option></td>
+
+            </table>
+        </fieldset>
+     </form>
+</body>
+</html>

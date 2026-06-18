@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation</title>
+</head>
+<body>
+    <h3>Donor Information</h3>
+    <!-- Donor information form-->
+     <form method="post">
+        <fieldset>
+            <legend>Donor information</legend>
+
+            <table>
+                <tr>
+                    <td><label for="name">First name:</label></td>
+                    <td><input type="text" id="First-name" name="Fname" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="name">Last name:</label></td>
+                    <td><input type="text" id="Last-name" name="Lname" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="company">Company:</label>
+                    <td><input type="text" id="workplace" name="job"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="address">Address 1:</label></td>
+
+                    <td><input type="text" id="add1" name="address1" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="address">Address 2:</label></td>
+
+                    <td><input type="text" id="add2" name="address2"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="address">City:</label></td>
+
+                    <td><input type="text" id="city" name="city" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="state">state:</label></td>
+
+                    <td>
+                        <select name="state" id="state" required>
+                            <option value="select">Select a state</option>
+                            <option value="Mdpur">Mohammadpur</option>
+                            <option value="Mirpur">Mirpur</option>
+                            <option value="dmd">Dhanmondi</option>
+                            <option value="uttra">Uttara</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="code">Zip-code:</label></td>
+
+                    <td><input type="number" id="zip" name="zip-code"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="state">Country:</label></td>
+
+                    <td>
+                        <select name="cntry" id="cntry" required>
+                            <option value="select">Select a country</option>
+                            <option value="Bd">Bangladesh</option>
+                            <option value="US">USA</option>
+                            <option value="UK">United Kingdom</option>
+                            <option value="ESP">Spain</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="number">Phone:</label></td>
+
+                    <td><input type="number" id="num" name="num"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="fx-code">Fax:</label></td>
+
+                    <td><input type="number" id="fax" name="fax"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email:</label></td>
+
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="gender">Donation Amount:</label>
+
+                        <input type="radio" name="none" value="none">None
+
+                        <input type="radio" name="20" value="20">$20
+
+                        <input type="radio" name="50" value="50">$50
+
+                        <input type="radio" name="50" value="100">$100
+
+                        <input type="radio" name="Gender" value="other">other
+
+                        <p>(Check a button of type in custom amount)</p>
+
+                        <label for="custom"> other Amount $</label>
+                        <input type="number" name="amount" id="amount">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                         <label for="continue donation">Reccuring Donation</label>
+                        <input type="checkbox" name="donation" id="donation"> i am interested in giving on a regular basis.
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <!--Services-->
+        <fieldset>
+            <legend>Services</legend>
+
+            <table>
+                <td><Label>Services:</Label></td>
+
+                <td><input type="checkbox" name="AI/ML" id="ai-ml"> AI/ML</td>
+
+                <td><input type="checkbox" name="Web" id="web-dev"> Web-Development</td>
+
+                <td><input type="checkbox" name="backend" id="backend"> Backend</td>
+            </table>
+        </fieldset>
+
+        <!--Contact reason-->
+        <fieldset>
+            <legend>Contact Reason</legend>
+
+            <table>
+
+                <td><select name="--Contact id="Contact"></select>
+                <option value="job"></option></td>
+
+            </table>
+        </fieldset>
+     </form>
+</body>
+</html>
