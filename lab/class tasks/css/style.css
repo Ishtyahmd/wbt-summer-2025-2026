@@ -1,0 +1,66 @@
+*{
+    font-family: Arial;
+}
+
+h1{
+    color: crimson;
+
+}
+fieldset{
+    border-color: crimson;
+    border-style: dashed;
+}
+legend{
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+label{
+    font-weight: bold;
+}
+
+button{
+    height: 25px;
+    width:  130px;
+    border-radius:5px;
+    color: crimson;
+    cursor: pointer;
+}
+
+button:hover{
+    color: black;
+}
+
+input{
+    border-radius: 6px;
+}
+
+hr{
+    border: none;
+}
+
+select{
+    color: crimson;
+    cursor: pointer;
+    border-radius: 4px;
+}
+select:hover{
+    color: black;
+}
+
+option, p{
+    color: black;
+}
+
+#appointment{
+    cursor: pointer;
+    color: crimson;
+    height: 25px;
+}
+
+#message{
+    height: 100px;
+    width: 260px;
+    border-radius: 8px;
+}
